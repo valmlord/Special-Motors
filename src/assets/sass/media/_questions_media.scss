@@ -1,0 +1,55 @@
+@media (max-width: 1199px) {
+    .questions {
+        .subtitle {
+            &:after {
+                left: 420px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1023px) {
+    .questions {
+        padding: 120px 0;
+
+        .title {
+            z-index: 100007;
+        }
+
+        .subtitle {
+            &:after {
+                left: 170px;
+                top: -74px;
+                z-index: -1;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    .questions {
+        background: url("../img/questions/questions_bg_tablet.jpg") (center / cover) no-repeat;
+
+        .subtitle {
+            &:after {
+                left: -170px;
+                top: -74px;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .questions {
+        background: url("../img/questions/questions_bg_mobile.jpg") (center / cover) no-repeat;
+
+        .subtitle {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

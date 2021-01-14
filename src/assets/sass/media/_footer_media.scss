@@ -1,0 +1,43 @@
+@media (max-width: 1600px) {
+  .footer {
+    &__logo {
+      img {
+        width: 230px;
+      }
+    }
+
+    &__icon {
+      font-size: 20px;
+    }
+
+    &__phone {
+      a {
+        font-size: 30px;
+      }
+    }
+
+    &__workhours {
+      font-size: 12px;
+    }
+
+    &__mail {
+      font-size: 12px;
+    }
+
+    address {
+      font-size: 12px;
+    }
+
+    &__links {
+      margin-left: 30px;
+
+      h2 {
+        font-size: 14px;
+      }
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}

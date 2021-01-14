@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+    .care {
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 45%;
+            margin-top: 60px;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .care {
+        &__item {
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}

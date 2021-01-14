@@ -1,0 +1,67 @@
+// Required Core Stylesheet
+@import "libs/fonts";
+@import "libs/aos";
+@import "libs/sweetalert";
+@import "base/variables";
+@import "base/animations";
+
+
+// Basic
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+// Content width
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 30px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+
+// Styles import
+
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/buttons";
+@import "blocks/brands";
+@import "blocks/care";
+@import "blocks/promotions";
+@import "blocks/modals";
+@import "blocks/advantages";
+@import "blocks/questions";
+@import "blocks/forms";
+@import "blocks/footer";
+@import "blocks/prices";
+@import "blocks/contacts";
+@import "blocks/services";
+@import "blocks/payment";
+@import "blocks/titles";
+@import "media/forms_media";
+@import "media/header_media";
+@import "media/promotions_media";
+@import "media/advantages_media";
+@import "media/care_media";
+@import "media/brands_media";
+@import "media/buttons_media";
+@import "media/footer_media";
+@import "media/questions_media";
+@import "media/about_media";
+@import "media/contacts_media";
+@import "media/glider_media";
+@import "media/modals_media";
+@import "media/prices_media";
+@import "media/services_media";
+@import "media/payment_media";
+@import "media/titles_media";

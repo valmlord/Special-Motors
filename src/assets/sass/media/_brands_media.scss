@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+    .brands {
+        &__items {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 0;
+
+
+            img {
+                display: flex;
+                width: 80px;
+            }
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .brands {
+        &__items {
+
+            img {
+                display: flex;
+                width: 50px;
+            }
+        }
+    }
+}

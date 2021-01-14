@@ -1,0 +1,160 @@
+.footer {
+  box-shadow: -1px -4px 5px 0px rgba(18, 18, 18, 0.5);
+  background: #2d2d2d;
+  padding: 30px 0;
+  z-index: 99999;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    img {
+      width: 315px;
+      height: 82px;
+    }
+  }
+
+  &__social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  &__icon {
+    font-size: 25px;
+    text-decoration: none;
+    color: $custom-grey;
+    transition: 0.3s all;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $custom-grey;
+      font-size: 40px;
+      text-decoration: none;
+      transition: 0.3s all;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+
+  &__contacts {
+    text-align: right;
+
+    address {
+      color: $custom-grey;
+      font-style: normal;
+      text-align: right;
+    }
+
+    .copyright {
+      display: block;
+      color: $custom-grey;
+      margin-top: 30px;
+      font-size: 12px;
+      line-height: 2;
+    }
+
+    .made_by {
+      text-decoration: none;
+      color: $custom-grey;
+      font-size: 12px;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+
+  &__workhours {
+    color: $custom-grey;
+  }
+
+  &__payment {
+    h2 {
+      font-size: 14px;
+      color: $custom-grey;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    img {
+      margin-top: 30px;
+      width: 40px;
+      height: 30px;
+    }
+
+    a {
+      display: block;
+      margin-top: 60px;
+      color: #fbfbfb;
+      text-decoration: none;
+      font-size: 12px;
+      text-align: right;
+    }
+  }
+
+  &__brands {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__mail {
+    text-decoration: none;
+    color: $custom-grey;
+    padding-top: 30px;
+
+    &:hover {
+      color: $main-color;
+      transition: 0.3s all;
+    }
+  }
+
+  &__links {
+    list-style: none;
+    color: $custom-grey;
+    text-align: left;
+    max-width: 350px;
+
+    h2 {
+      font-size: 18px;
+      font-family: "Oswald", sans-serif;
+    }
+
+    li {
+      margin-top: 10px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 12px;
+      color: $custom-grey;
+      transition: 0.3s all;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+}

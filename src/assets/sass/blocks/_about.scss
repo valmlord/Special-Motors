@@ -1,0 +1,49 @@
+.about {
+    background: url("../img/about/about_bg.jpg") (center / cover) no-repeat;
+    color: $custom-black;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .images__wrapper {
+        display: flex;
+        justify-content: center;
+
+        &:nth-child(2) {
+            margin: 0 auto;
+        }
+    }
+
+    &__description {
+        padding-top: 120px;
+
+        .title {
+            text-align: left;
+        }
+    }
+
+
+    &__text {
+        text-align: left;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-right: 60px;
+        margin-left: 1%;
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 160px;
+    }
+
+    &__img {
+        width: 172px;
+        height: 111px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,82 @@
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px 0px rgba(18, 18, 18, 0.5);
+  border: 1px solid $main-color;
+  color: $custom-grey;
+  background: $main-color;
+  text-align: center;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &_service {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 90px;
+  }
+
+  &_promo {
+    width: 250px;
+    height: 40px;
+  }
+
+  &_submit {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    z-index: 100001;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 4px 5px 0px rgba(18, 18, 18, 0.5);
+    background: $main-color;
+    color: $custom-grey;
+    font-size: 18px;
+  }
+
+  /* 
+  &_consultation {
+    margin-top: 10px;
+  }
+
+  &_calculate {
+    margin-top: 60px;
+    margin-left: 1%;
+  }
+
+  &_question {
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 1%;
+  }
+
+  &_main {
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 1%;
+  }
+
+
+
+  &_order {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    z-index: 100001;
+  }
+
+  &_service {
+    height: 30px;
+    display: block;
+    margin: 30px auto;
+    line-height: 0.7;
+  } */
+}

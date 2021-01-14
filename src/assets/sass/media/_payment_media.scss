@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .payment {
+        &__list {
+            flex-direction: column;
+        }
+
+        &__item {}
+    }
+}
+
+@media (max-width: 424px) {
+    .payment {
+        &__item {
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}

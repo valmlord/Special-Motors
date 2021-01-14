@@ -1,0 +1,145 @@
+.header {
+  background: url("../img/header/header_bg.jpg") (center / cover) no-repeat;
+  padding-bottom: 30px;
+  box-shadow: 1px 4px 5px 0px rgba(18, 18, 18, 0.5);
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-top: 30px;
+
+    img {
+      width: 315px;
+      height: 82px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    margin-right: 280px;
+    align-items: center;
+  }
+
+  &__icon {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -10px;
+    text-decoration: none;
+    color: $custom-black;
+    transition: 0.3s all;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    a {
+      color: $main-color;
+      font-size: 40px;
+      text-decoration: none;
+    }
+
+    span {
+      text-align: right;
+    }
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+  }
+
+  &__link {
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    a {
+      position: relative;
+      text-decoration: none;
+      color: $custom-grey;
+      line-height: 1.5;
+    }
+
+    a:after {
+      display: block;
+      position: absolute;
+      left: 0;
+      /*изменить на right:0;, чтобы изменить направление подчёркивания */
+      width: 0;
+      /*задаём длинну линии до наведения курсора*/
+      height: 2px;
+      /*задаём ширину линии*/
+      background-color: $main-color;
+      /*задаём цвет линии*/
+      content: "";
+      transition: width 0.3s ease-out;
+      /*задаём время анимации*/
+    }
+
+    a:hover:after,
+    a:focus:after {
+      width: 100%;
+      /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    }
+  }
+
+  &__title {
+    margin-top: 135px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+  }
+
+  &__company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+
+    h3 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 50px;
+      line-height: 1;
+    }
+
+    h4 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: normal;
+      font-size: 60px;
+      color: $main-color;
+    }
+  }
+
+  .sentence {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 60px;
+    }
+
+    &__title {
+      font-family: "Oswald", sans-serif;
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    &__description {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}

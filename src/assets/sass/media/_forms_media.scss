@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .form {
+        position: relative;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+
+    .feed-form {
+        input {
+            width: 230px;
+        }
+    }
+
+}

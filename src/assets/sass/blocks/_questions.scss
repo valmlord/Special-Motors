@@ -1,0 +1,26 @@
+.questions {
+  padding: 200px 0;
+  background: url("../img/questions/questions_bg.jpg") center (center / cover) no-repeat;
+
+  .title,
+  .subtitle {
+    position: relative;
+    text-align: left;
+    margin-left: 1%;
+    z-index: 99998;
+
+  }
+
+
+  .subtitle {
+    color: $main-color;
+
+    &:after {
+      content: url("../img/questions/specialist.png");
+      position: absolute;
+      top: -100px;
+      left: 500px;
+      z-index: 1;
+    }
+  }
+}

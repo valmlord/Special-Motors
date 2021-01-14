@@ -1,0 +1,150 @@
+.promotions {
+    padding: 60px 0;
+    background: $custom-grey;
+    box-shadow: -1px -4px 5px 0px rgba(18, 18, 18, 0.5);
+
+    &:before {
+        content: url("../img/promotions/left_tire.png");
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+    }
+
+    &:after {
+        content: url("../img/promotions/right_tire.png");
+        position: absolute;
+        top: -25%;
+        right: 0;
+        z-index: 1;
+    }
+
+    &__wrapper {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__subtitle {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    &__text {
+        display: flex;
+        min-height: 80px;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    &__link {
+        color: $custom-black;
+        text-decoration: none;
+    }
+
+    &__item {
+        width: 28%;
+        height: 315px;
+        margin: 60px 0;
+        background: url("../img/promotions/sales1.jpg") 100% 10% white no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 30px 30px 30px;
+        box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        z-index: 2;
+
+        span {
+            color: $main-color;
+            font-size: 35px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        &:nth-child(2) {
+            background: url("../img/promotions/sales2.jpg") 10% 60% white no-repeat;
+            text-align: right;
+        }
+
+        &:nth-child(3) {
+            background: url("../img/promotions/sales3.jpg") 0% 30% white no-repeat;
+            background-size: 60%;
+            text-align: right;
+        }
+
+        &_temporary {
+            &:nth-child(1) {
+                background: url("../img/promotions/sales4.jpg") 93% 90% white no-repeat;
+                background-size: 50%;
+            }
+
+            &:nth-child(2) {
+                background: none;
+                text-align: center;
+                background: #ffffff;
+
+                // TIMER
+
+                .timer1 {
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 0 auto;
+                    align-items: center;
+                    width: 100%;
+                    height: 200px;
+                    text-align: center;
+                    border-radius: 10px;
+                    box-shadow: 3px 3px 10px $custom-black;
+                    background: #ffffff;
+                    color: $custom-black;
+                }
+
+                .container1 {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 500px;
+
+                }
+
+                .numbers1 {
+                    font-size: 40px;
+                    min-width: 70px;
+                    box-shadow: 3px 3px 10px $custom-black;
+                    border-radius: 10px;
+                    padding: 20px 10px;
+                    background: $main-color;
+
+                }
+
+                .timer1 span {
+                    border-radius: 10px;
+                    color: $custom-grey;
+                    font-size: 45px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+
+                .description1 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'Oswald', sans-serif;
+                    text-align: center;
+                    color: $custom-grey;
+                    margin-top: 30px;
+                }
+            }
+
+            &:nth-child(3) {
+                background: url("../img/promotions/sales5.jpg") 0% 100% white no-repeat;
+                background-size: 60%;
+            }
+        }
+    }
+}

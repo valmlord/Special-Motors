@@ -1,0 +1,57 @@
+@media (max-width: 1080px) {
+    .about {
+        &__text {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .about {
+        .title {
+            margin-left: 1%;
+        }
+
+        &__images {
+            display: none;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .about {
+        background: url("../img/about/about_bg_tablet.jpg") (center / cover) no-repeat;
+        height: 600px;
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__img {
+            width: 120px;
+            height: 80px;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .about {
+        background: url("../img/about/about_bg_mobile.jpg") (center / cover) no-repeat;
+
+        &__description {
+            padding-top: 60PX;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .about {
+        &__text {
+            font-size: 10px;
+        }
+    }
+}

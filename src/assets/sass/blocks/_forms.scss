@@ -1,0 +1,25 @@
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  input {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border: none;
+    padding: 0 20px;
+    color: $custom-black;
+    font-size: 14px;
+    font-weight: 300;
+    z-index: 100001;
+    box-shadow: 1px 4px 5px 0px rgba(18, 18, 18, 0.5);
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}

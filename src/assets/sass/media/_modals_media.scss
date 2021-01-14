@@ -1,0 +1,25 @@
+@media (max-width: 424px) {
+
+    .consult,
+    .service,
+    .promo,
+    .thanks {
+        &__close {
+            top: -40px;
+            right: 0px;
+        }
+    }
+
+}
+
+@media (max-width: 374px) {
+
+    .consult,
+    .service,
+    .promo,
+    .thanks {
+        position: absolute;
+        width: 270px;
+        padding: 40px 5px;
+    }
+}

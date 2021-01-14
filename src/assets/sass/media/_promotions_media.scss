@@ -1,0 +1,133 @@
+@media (max-width: 1600px) {
+    .promotions {
+        &__subtitle {
+            font-size: 30px;
+        }
+
+        &__item {
+            max-width: 28%;
+            height: 250px;
+
+            &:nth-child(2) {
+                background: url(../img/promotions/sales2.jpg) 0% 100% #fff no-repeat;
+                background-size: 60%;
+            }
+
+            &_temporary {
+                &:nth-child(2) {
+                    background: none;
+
+                    .timer1 {
+                        height: 150px;
+                    }
+
+                    .numbers1 {
+                        padding: 5px 5px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1299px) {
+    .promotions {
+        &__subtitle {
+            font-size: 22px;
+        }
+
+        &__item {
+            max-width: 25%;
+            height: 200px;
+
+            &:nth-child(1) {
+                background-size: 60%;
+            }
+
+            &:nth-child(2) {
+                background: url(../img/promotions/sales2.jpg) 0% 50% #fff no-repeat;
+                background-size: 60%;
+            }
+
+            &_temporary {
+                &:nth-child(2) {
+                    background: none;
+
+                    .numbers1 {
+                        min-width: 50px;
+                        height: 80px;
+
+                        span {
+                            font-size: 25px;
+                        }
+
+                        .description1 {
+                            margin-top: 0;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1023px) {
+    .promotions {
+        &__item {
+            width: 43%;
+            background: url("../img/promotions/sales1.jpg") 150% 100% #fff no-repeat;
+        }
+    }
+
+    .promotions__item:nth-child(2) {
+        background: url("../img/promotions/sales2.jpg") 80% 110% #fff no-repeat;
+    }
+
+    .promotions__item:nth-child(3) {
+        background: url("../img/promotions/sales4.jpg") 100% 350% #fff no-repeat;
+    }
+
+    .promotions__item:nth-child(4) {
+        background: url("../img/promotions/sales3.jpg") 200% 100% #fff no-repeat;
+        background-size: 80%;
+    }
+
+
+    .promotions__item:nth-child(6) {
+        background: url("../img/promotions/sales6.jpg") 230% 100% #fff no-repeat;
+        background-size: 73%;
+    }
+}
+
+@media (max-width: 767px) {
+    .promotions {
+        &__item {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .promotions {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        &__item {
+            width: 85%;
+        }
+
+
+        .item__title {
+            font-size: 25px;
+            color: #000000;
+        }
+
+    }
+}
